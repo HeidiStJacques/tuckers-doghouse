@@ -1,0 +1,284 @@
+.footer-wrap {
+  width: 100%;
+  padding: 0 32px 32px;
+}
+
+.footer-card {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  background-color: #230c0f;
+  color: #fff8e8;
+
+  border: 3px solid #230c0f;
+  border-radius: 32px;
+  box-shadow: 8px 8px 0 #cd5d67;
+
+  overflow: hidden;
+}
+
+/* MAIN FOOTER */
+
+.footer-main {
+  padding: 52px 50px;
+
+  display: grid;
+  grid-template-columns: 1.25fr 0.65fr 0.9fr 1.2fr;
+  gap: 45px;
+  align-items: start;
+}
+
+/* BRAND */
+
+.footer-logo {
+  display: inline-block;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+
+  color: #fff8e8;
+}
+
+.footer-tagline {
+  max-width: 280px;
+  margin: 15px 0 0;
+
+  font-size: 1rem;
+  line-height: 1.5;
+
+  color: #d7b377;
+}
+
+.footer-trail {
+  margin: 26px 0 0;
+
+  font-family: "Boska", serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.25;
+
+  color: #fff8e8;
+}
+
+.footer-trail span {
+  color: #f3d66b;
+}
+
+/* LINKS */
+
+.footer-heading {
+  margin: 0 0 18px;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  color: #f3d66b;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-links > a {
+  position: relative;
+
+  margin-bottom: 11px;
+
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: #fff8e8;
+
+  transition: color 0.15s ease;
+}
+
+.footer-links > a:hover {
+  color: #cd5d67;
+}
+
+/* SOCIAL PLACEHOLDER */
+
+.footer-social {
+  margin-top: 18px;
+}
+
+.footer-social p {
+  max-width: 220px;
+  margin: 0 0 12px;
+
+  font-size: 0.9rem;
+  line-height: 1.45;
+
+  color: #d7b377;
+}
+
+.footer-social-placeholder {
+  display: inline-block;
+  padding: 9px 12px;
+
+  border: 1px dashed #d7b377;
+  border-radius: 9px;
+
+  font-size: 0.78rem;
+  font-weight: 600;
+
+  color: #d7b377;
+}
+
+/* CATERING CTA */
+
+.footer-cta {
+  padding: 27px;
+
+  background-color: #56876d;
+
+  border: 2px solid #fff8e8;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0 #cd5d67;
+}
+
+.footer-cta-kicker {
+  margin: 0 0 7px;
+
+  font-family: "Boska", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+
+  color: #f3d66b;
+}
+
+.footer-cta h2 {
+  margin: 0;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+
+  color: #fff8e8;
+}
+
+.footer-cta > p:not(.footer-cta-kicker) {
+  margin: 14px 0 0;
+
+  font-size: 0.95rem;
+  line-height: 1.5;
+
+  color: #fff8e8;
+}
+
+.footer-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+  padding: 11px 17px;
+
+  background-color: #f3d66b;
+  color: #230c0f;
+
+  border: 2px solid #230c0f;
+  border-radius: 11px;
+  box-shadow: 3px 3px 0 #230c0f;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.footer-cta-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #230c0f;
+}
+
+/* BOTTOM BAR */
+
+.footer-bottom {
+  padding: 20px 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+
+  background-color: #fff8e8;
+  color: #230c0f;
+
+  border-top: 3px solid #230c0f;
+}
+
+.footer-bottom p {
+  margin: 0;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.footer-paw {
+  font-family: "Boska", serif;
+  font-style: italic;
+}
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* PHONE */
+
+@media (max-width: 650px) {
+  .footer-wrap {
+    padding: 0 16px 20px;
+  }
+
+  .footer-card {
+    border-radius: 24px;
+    box-shadow: 5px 5px 0 #cd5d67;
+  }
+
+  .footer-main {
+    padding: 38px 26px;
+
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footer-logo {
+    font-size: 1.7rem;
+  }
+
+  .footer-cta {
+    padding: 25px 22px;
+  }
+
+  .footer-cta-button {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    padding: 18px 25px;
+
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,397 @@
+.catering-page {
+  width: 100%;
+  padding: 28px 32px 60px;
+}
+
+.catering-card {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 65px 60px;
+
+  background-color: #fff8e8;
+  border: 3px solid #230c0f;
+  border-radius: 32px;
+  box-shadow: 8px 8px 0 #230c0f;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* HERO */
+
+.catering-hero {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.catering-kicker {
+  margin: 0 0 14px;
+
+  font-family: "Boska", serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+
+  color: #cd5d67;
+}
+
+.catering-hero h1 {
+  margin: 0;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: clamp(3.8rem, 7vw, 6.5rem);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+
+  color: #230c0f;
+}
+
+.catering-hero h1 span {
+  color: #56876d;
+}
+
+.catering-intro {
+  max-width: 680px;
+  margin: 28px auto 0;
+
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
+
+  color: #3a2d32;
+}
+
+.catering-hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
+  padding: 15px 26px;
+
+  background-color: #cd5d67;
+  color: #fff8e8;
+
+  border: 2px solid #230c0f;
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 #230c0f;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.catering-hero-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #230c0f;
+}
+
+/* DIVIDER */
+
+.catering-divider {
+  max-width: 700px;
+  margin: 50px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  font-size: 1.5rem;
+}
+
+.catering-divider-line {
+  height: 2px;
+  flex: 1;
+  background-color: #d7b377;
+}
+
+/* SECTION HEADING */
+
+.catering-section-heading {
+  max-width: 750px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.catering-small-kicker {
+  margin: 0 0 8px;
+
+  font-family: "Boska", serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-style: italic;
+
+  color: #cd5d67;
+}
+
+.catering-section-heading h2 {
+  margin: 0;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: clamp(2.5rem, 4vw, 3.7rem);
+  line-height: 1;
+
+  color: #230c0f;
+}
+
+.catering-section-heading > p:last-child {
+  max-width: 620px;
+  margin: 18px auto 0;
+
+  font-size: 1.1rem;
+  line-height: 1.55;
+
+  color: #3a2d32;
+}
+
+/* EVENT OPTIONS */
+
+.catering-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.catering-option {
+  padding: 32px;
+
+  background-color: #fff8e8;
+  border: 2px solid #230c0f;
+  border-radius: 22px;
+  box-shadow: 4px 4px 0 #230c0f;
+}
+
+.catering-option-fawn {
+  background-color: #d7b377;
+}
+
+.catering-option-green {
+  background-color: #56876d;
+  color: #fff8e8;
+}
+
+.catering-option-icon {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 2.3rem;
+}
+
+.catering-option h3 {
+  margin: 0 0 12px;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.05;
+
+  color: #230c0f;
+}
+
+.catering-option-green h3 {
+  color: #fff8e8;
+}
+
+.catering-option p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+/* DETAILS */
+
+.catering-details {
+  margin-top: 50px;
+  padding: 38px;
+
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 35px;
+  align-items: center;
+
+  background-color: #f3d66b;
+  border: 3px solid #230c0f;
+  border-radius: 24px;
+  box-shadow: 5px 5px 0 #230c0f;
+}
+
+.catering-details-content h2 {
+  margin: 0 0 16px;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1;
+
+  color: #230c0f;
+}
+
+.catering-details-content > p:last-child {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.catering-details-note {
+  padding: 25px;
+
+  background-color: #fff8e8;
+  border: 2px solid #230c0f;
+  border-radius: 18px;
+  box-shadow: 3px 3px 0 #230c0f;
+
+  text-align: center;
+}
+
+.catering-details-note span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.catering-details-note p {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* FINAL CTA */
+
+.catering-cta {
+  margin-top: 55px;
+  padding: 48px 35px;
+
+  text-align: center;
+
+  background-color: #56876d;
+  color: #fff8e8;
+
+  border: 3px solid #230c0f;
+  border-radius: 24px;
+  box-shadow: 5px 5px 0 #230c0f;
+}
+
+.catering-cta-kicker {
+  margin: 0 0 8px;
+
+  font-family: "Boska", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+
+  color: #f3d66b;
+}
+
+.catering-cta h2 {
+  margin: 0;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 1;
+
+  color: #fff8e8;
+}
+
+.catering-cta > p:not(.catering-cta-kicker) {
+  margin: 16px 0 0;
+  font-size: 1.1rem;
+}
+
+.catering-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 26px;
+  padding: 14px 26px;
+
+  background-color: #f3d66b;
+  color: #230c0f;
+
+  border: 2px solid #230c0f;
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 #230c0f;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.catering-cta-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #230c0f;
+}
+
+/* TABLET */
+
+@media (max-width: 950px) {
+  .catering-card {
+    padding: 50px 40px;
+  }
+
+  .catering-options {
+    grid-template-columns: 1fr;
+  }
+
+  .catering-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* PHONE */
+
+@media (max-width: 600px) {
+  .catering-page {
+    padding: 20px 16px 45px;
+  }
+
+  .catering-card {
+    padding: 38px 22px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 0 #230c0f;
+  }
+
+  .catering-kicker {
+    font-size: 1.4rem;
+  }
+
+  .catering-intro {
+    font-size: 1.05rem;
+  }
+
+  .catering-hero-button {
+    width: 100%;
+  }
+
+  .catering-divider {
+    margin: 38px auto;
+  }
+
+  .catering-option {
+    padding: 26px 22px;
+  }
+
+  .catering-details {
+    padding: 28px 22px;
+  }
+
+  .catering-cta {
+    padding: 38px 22px;
+  }
+
+  .catering-cta-button {
+    width: 100%;
+  }
+}

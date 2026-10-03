@@ -1,0 +1,350 @@
+.contact-page {
+  width: 100%;
+  padding: 28px 32px 60px;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 65px 60px;
+
+  background-color: #fff8e8;
+  border: 3px solid #230c0f;
+  border-radius: 32px;
+  box-shadow: 8px 8px 0 #230c0f;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* HEADING */
+
+.contact-heading {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.contact-kicker {
+  margin: 0 0 12px;
+
+  font-family: "Boska", serif;
+  font-size: 1.65rem;
+  font-weight: 600;
+  font-style: italic;
+
+  color: #cd5d67;
+}
+
+.contact-heading h1 {
+  margin: 0;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: clamp(3.4rem, 6vw, 5.5rem);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+
+  color: #230c0f;
+}
+
+.contact-heading h1 span {
+  color: #56876d;
+}
+
+.contact-intro {
+  max-width: 650px;
+  margin: 24px auto 0;
+
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6;
+
+  color: #3a2d32;
+}
+
+/* LAYOUT */
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 30px;
+  align-items: start;
+}
+
+/* FORM */
+
+.contact-form-wrap {
+  padding: 38px;
+
+  border: 2px solid #230c0f;
+  border-radius: 24px;
+  box-shadow: 5px 5px 0 #230c0f;
+
+  background-color: #fff8e8;
+}
+
+.contact-form-heading {
+  margin-bottom: 28px;
+}
+
+.contact-small-label {
+  margin: 0 0 6px;
+
+  font-family: "Boska", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+
+  color: #cd5d67;
+}
+
+.contact-form-heading h2 {
+  margin: 0;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 2.2rem;
+  color: #230c0f;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.contact-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-field label {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: #230c0f;
+}
+
+.contact-field input,
+.contact-field select,
+.contact-field textarea {
+  width: 100%;
+  padding: 14px 16px;
+
+  background-color: #fffdf6;
+  color: #230c0f;
+
+  border: 2px solid #230c0f;
+  border-radius: 12px;
+  outline: none;
+
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 1rem;
+
+  transition:
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.contact-field textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-field input:focus,
+.contact-field select:focus,
+.contact-field textarea:focus {
+  box-shadow: 3px 3px 0 #d7b377;
+}
+
+.contact-submit {
+  align-self: flex-start;
+
+  padding: 14px 26px;
+
+  background-color: #cd5d67;
+  color: #fff8e8;
+
+  border: 2px solid #230c0f;
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 #230c0f;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.contact-submit:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #230c0f;
+}
+
+/* RIGHT SIDE */
+
+.contact-side {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-callout,
+.contact-info {
+  padding: 32px;
+
+  border: 2px solid #230c0f;
+  border-radius: 22px;
+  box-shadow: 4px 4px 0 #230c0f;
+}
+
+.contact-callout {
+  background-color: #56876d;
+  color: #fff8e8;
+}
+
+.contact-callout .contact-small-label {
+  color: #f3d66b;
+}
+
+.contact-callout h2 {
+  margin: 0 0 16px;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 2.3rem;
+  line-height: 1;
+
+  color: #fff8e8;
+}
+
+.contact-callout p:not(.contact-small-label) {
+  margin: 0 0 24px;
+  line-height: 1.55;
+}
+
+.contact-catering-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 13px 20px;
+
+  background-color: #f3d66b;
+  color: #230c0f;
+
+  border: 2px solid #230c0f;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 #230c0f;
+
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.contact-catering-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #230c0f;
+}
+
+.contact-info {
+  background-color: #d7b377;
+}
+
+.contact-info h3 {
+  margin: 0 0 12px;
+
+  font-family: "Clash Display", sans-serif;
+  font-size: 1.8rem;
+
+  color: #230c0f;
+}
+
+.contact-info p:not(.contact-small-label) {
+  line-height: 1.5;
+}
+
+.contact-social-placeholder {
+  margin-top: 20px;
+  padding: 14px;
+
+  border: 2px dashed #230c0f;
+  border-radius: 12px;
+
+  text-align: center;
+  font-weight: 700;
+}
+
+/* TABLET */
+
+@media (max-width: 950px) {
+  .contact-card {
+    padding: 50px 40px;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* PHONE */
+
+@media (max-width: 600px) {
+  .contact-page {
+    padding: 20px 16px 45px;
+  }
+
+  .contact-card {
+    padding: 38px 22px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 0 #230c0f;
+  }
+
+  .contact-heading {
+    margin-bottom: 35px;
+  }
+
+  .contact-kicker {
+    font-size: 1.35rem;
+  }
+
+  .contact-intro {
+    font-size: 1.05rem;
+  }
+
+  .contact-form-wrap {
+    padding: 26px 20px;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-callout,
+  .contact-info {
+    padding: 26px 22px;
+  }
+
+  .contact-submit,
+  .contact-catering-button {
+    width: 100%;
+  }
+}
